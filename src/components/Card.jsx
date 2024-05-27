@@ -17,7 +17,7 @@ const Card = ({ title, photo, videoId, children }) => {
           <img className="w-96 h-60" src={photo} alt="" />
         )}
         <div className="px-6 py-4 bg-gray-700">
-          <div className="font-bold text-xl mb-2">{title}</div>
+          <div className="font-bold text-l mb-2">{title}</div>
           <div className="text-slate-400 text-base">{children}</div>
         </div>
       </div>
